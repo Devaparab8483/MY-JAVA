@@ -5,7 +5,7 @@ public class factorial {
         for(int i=n;i>=1;i--){
             fact=fact*i;
         }
-        //System.out.println(fact);
+        
         return fact; 
     }        
 
@@ -13,8 +13,8 @@ public class factorial {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = scanner.nextInt();
-        factorial_val(n); //function call
-        System.out.println("Factorial of " + n + " is: " + factorial_val(n));
+        int result= factorial_val(n); //function call
+        System.out.println("Factorial of " + n + " is: " + result);
 
 
 }
