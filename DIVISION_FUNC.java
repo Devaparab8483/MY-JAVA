@@ -10,7 +10,7 @@ public class DIVISION_FUNC {
         Scanner rd = new Scanner(System.in);
         System.out.print("Enter the 1st Number: ");
         int num1 = rd.nextInt();
-        System.out.println("Enter the 2nd Number: ");
+        System.out.print("Enter the 2nd Number: ");
         int num2 = rd.nextInt();
         int result = divide(num1, num2);
         System.out.println("The result is: " + result);
