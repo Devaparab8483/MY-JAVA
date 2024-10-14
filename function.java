@@ -9,9 +9,9 @@ public class function {
        
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
-            System.out.print("enterfirstnumber:" );
+            System.out.print("enterfirstnumber: ");
             int a = sc.nextInt();
-            System.out.print("entersecondnumber:");
+            System.out.print("entersecondnumber: ");
             int b = sc.nextInt();
             sum(a,b); // Function Call
      
