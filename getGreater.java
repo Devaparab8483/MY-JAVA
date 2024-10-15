@@ -1,9 +1,9 @@
 import java.util.*;
 public class getGreater {
     public static int GreatNO(int a,int b){
-        if(a<b){
+        if(a>b){
             return a;
-        }
+        }   
         else;
         {
             return b;
