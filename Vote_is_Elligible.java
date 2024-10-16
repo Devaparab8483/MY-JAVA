@@ -14,7 +14,7 @@ public class Vote_is_Elligible {
         Scanner rd = new Scanner(System.in);
         System.out.print("ENter your Age: ");
         int age = rd.nextInt();
-        System.out.print(" Eligible for Voting" +is_Elligible(age));
+        System.out.print("Eligible for Voting " +is_Elligible(age));
 
     }
 
