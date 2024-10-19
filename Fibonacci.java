@@ -17,10 +17,6 @@ public class Fibonacci {
         second_number= next_num;
 
        }
-          
-       
-
-
-           
+                     
        }
 }   
