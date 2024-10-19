@@ -18,7 +18,7 @@ public class LCM {
        System.out.print("enter Second number ");
        int n2 = sc.nextInt();
 
-       int ans=(n1*n2)/Findgcd(n1, n2);
+       int ans=(n1*n2)/Findgcd(n1, n2);                 //LCM = (a*b)/gcd
        System.out.println("LCM is : " +ans);
    }   
 }
