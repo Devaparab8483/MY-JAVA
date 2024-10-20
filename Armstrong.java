@@ -12,7 +12,7 @@ public class Armstrong {
             leng=leng+1;
         }
 
-        int pow = leng;
+        int pow = leng;  //length is stored into power
 
         temp=num;
         int sum=0;
