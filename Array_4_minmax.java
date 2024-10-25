@@ -8,7 +8,8 @@ public class Array_4_minmax {
       int numbers[] = new int[size];
 
 
-      //input
+      //
+      System.out.println("Enter the number: ");
       for(int i=0; i<size; i++) {
           numbers[i] = sc.nextInt();
       }
