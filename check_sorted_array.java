@@ -1,6 +1,16 @@
+import java.util.*;
 public class check_sorted_array {
     public static void main(String[] args) {
-        int[] numbers = {1, 2, 3, 4, 5};  // Example array
+        Scanner rd= new Scanner(System.in);
+        System.out.print("enter the size of array: ");
+        int size=rd.nextInt();
+
+        int[] numbers = new int[size];  
+
+        System.out.print("Enter the number: ");
+        for(int i=0; i<numbers.length; i++) {
+            numbers[i] = rd.nextInt();
+        }
 
         boolean isAscending = true;
         boolean isDescending = true;
