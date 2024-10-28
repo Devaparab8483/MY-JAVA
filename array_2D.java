@@ -23,8 +23,8 @@ public class array_2D {
            }
        }
 
+       System.out.print("2D matrix : ");
        for(int i=0; i<rows; i++) {
-        System.out.print("2D matrix : ");
            for(int j=0; j<cols; j++) {
                    System.out.print(numbers[i][j]+" ");
                }
