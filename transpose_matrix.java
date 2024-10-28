@@ -17,7 +17,9 @@ public class transpose_matrix {
             }
         }
 
-        System.out.println("Transpose matrix : ");
+
+        //transpose
+        System.out.println("Transpose matrix is  : ");
         for(int i = 0; i < cols; i++){
             for(int j = 0; j < rows; j++){
                 System.out.print(matrix[j][i] + " ");
