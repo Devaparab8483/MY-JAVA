@@ -12,6 +12,7 @@ public class Addition_matrix{
     int matrix2[][] = new int[rows][cols];
 
     //input
+    System.out.println("1st matrix: ");
     for(int i = 0; i < rows; i++){
         System.out.println("Enter the " + (i+1) + " rows number: ");
         for(int j = 0; j < cols; j++){
@@ -19,6 +20,7 @@ public class Addition_matrix{
         }
     }
 
+    System.out.println("2nd matrix: ");
     for(int i = 0; i < rows; i++){
         System.out.println("Enter the " + (i+1) + " rows number: ");
         for(int j = 0; j < cols; j++){
@@ -28,12 +30,13 @@ public class Addition_matrix{
        
         
     //creating another matrix to store the sum of two matrices    
-    int matrix3[][]=new int[rows][cols];  //3 rows and 3 columns  
+    int matrix3[][]=new int[rows][cols]; 
         
     //adding and printing addition of 2 matrices    
     for(int i=0;i<rows;i++){    
     for(int j=0;j<cols;j++){    
-    matrix3[i][j]=matrix1[i][j]+matrix2[i][j];    //use - for subtraction  
+    matrix3[i][j]=matrix1[i][j]+matrix2[i][j]; 
+    System.out.println("Addition of two matrices: ");   //use - for subtraction  
     System.out.print(matrix3[i][j]+" ");    
     }    
     System.out.println();//new line    
