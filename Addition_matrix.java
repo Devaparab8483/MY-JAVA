@@ -32,12 +32,12 @@ public class Addition_matrix{
     //creating another matrix to store the sum of two matrices    
     int matrix3[][]=new int[rows][cols]; 
         
-    //adding and printing addition of 2 matrices    
+    //adding and printing addition of 2 matrices
+    System.out.println("Addition of two matrices: ");
     for(int i=0;i<rows;i++){    
     for(int j=0;j<cols;j++){    
     matrix3[i][j]=matrix1[i][j]+matrix2[i][j]; 
-    System.out.println("Addition of two matrices: ");   //use - for subtraction  
-    System.out.print(matrix3[i][j]+" ");    
+    System.out.print(matrix3[i][j]+" ");   //use - for subtraction  
     }    
     System.out.println();//new line    
     }    
