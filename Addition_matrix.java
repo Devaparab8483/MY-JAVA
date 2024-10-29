@@ -12,7 +12,7 @@ public class Addition_matrix{
     int matrix2[][] = new int[rows][cols];
 
     //input
-    System.out.println("1st matrix: ");
+    System.out.println("1st matrix : ");
     for(int i = 0; i < rows; i++){
         System.out.println("Enter the " + (i+1) + " rows number: ");
         for(int j = 0; j < cols; j++){
@@ -20,7 +20,7 @@ public class Addition_matrix{
         }
     }
 
-    System.out.println("2nd matrix: ");
+    System.out.println("2nd matrix : ");
     for(int i = 0; i < rows; i++){
         System.out.println("Enter the " + (i+1) + " rows number: ");
         for(int j = 0; j < cols; j++){
