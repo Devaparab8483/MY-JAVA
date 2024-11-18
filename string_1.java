@@ -27,5 +27,15 @@ public class string_1 {
         String fullName = firstName + " " + secondName;
         System.out.println(fullName.length());
 
+
+        //Access characters of a string
+        String firstName1 = "Tony";
+        String secondName2 = "Stark";
+        String fullName2 = firstName1+ " " + secondName2;
+        for(int i=0; i<fullName2.length(); i++) {
+        System.out.println(fullName2.charAt(i));
+        }
+
+
 }
 }
