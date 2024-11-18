@@ -21,5 +21,11 @@ public class string_1 {
         String s2="world";
         System.out.println(s1+s2);
 
+        //Print length of a String
+        String firstName = "Tony";
+        String secondName = "Stark";
+        String fullName = firstName + " " + secondName;
+        System.out.println(fullName.length());
+
 }
 }
