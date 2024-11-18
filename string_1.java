@@ -16,5 +16,10 @@ public class string_1 {
         //String name1 = sc.nextLine();
         System.out.println("Hello "+name);
 
+        //concatination
+        String s1="hello";
+        String s2="world";
+        System.out.println(s1+s2);
+
 }
 }
