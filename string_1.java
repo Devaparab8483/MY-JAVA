@@ -3,7 +3,8 @@ import java.util.Scanner;
 
 public class string_1 {
     public static void main(String[] args) {
-        // String are Immnutable
+        
+        ///ALWAYS REMEMBER : Java Strings are Immutable.
 
         // string declaration
         // String s1="hello";
