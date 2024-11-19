@@ -80,6 +80,12 @@ public class string_1 {
         double number1 = Double.parseDouble(str1);
         System.out.println(number1);
 
+        //ToString Method of String class (INT TO STRING)
+        int numb = 123;
+        String strs = Integer.toString(numb);
+        System.out.println(strs.length());
+
+
 
 
 }
