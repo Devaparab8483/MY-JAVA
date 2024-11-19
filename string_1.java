@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class string_1 {
     public static void main(String[] args) {
+        // String are Immnutable
+
         // string declaration
         // String s1="hello";
         // String s2="hello";
@@ -59,6 +61,24 @@ public class string_1 {
         // }else{
         //     System.out.println("Not same");
         // }
+
+        //substring
+        String sentence="My name is Devang";
+        System.out.println(sentence.substring(11));
+        System.out.println(sentence.substring(11,15));
+        System.out.println(sentence.substring(3, sentence.length()));
+        String name1 = sentence.substring(11);
+        System.out.println(name1);
+
+        //ParseInt Method of Integer class
+        String str = "123";
+        int number = Integer.parseInt(str);
+        System.out.println(number);
+
+        //ParseDouble Method of Double class
+        String str1 = "123.45";
+        double number1 = Double.parseDouble(str1);
+        System.out.println(number1);
 
 
 
