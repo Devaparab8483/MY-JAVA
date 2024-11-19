@@ -7,5 +7,17 @@ public static void main(String[] args) {
     int atIndex = email.indexOf('@');
     String username = email.substring(0, atIndex);
     System.out.println("Username is : " + username);
+
+    /*
+     * for(int i=0; i<email.length(); i++) {
+        if(email.charAt(i) == '@') {
+        break;
+        } else {
+            userName += email.charAt(i);
+        }
+        }
+    System.out.println(userName);
+
+     */
 }
 }
