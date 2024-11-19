@@ -24,17 +24,42 @@ public class string_1 {
         //Print length of a String
         String firstName = "Tony";
         String secondName = "Stark";
-        String fullName = firstName + " " + secondName;
+        String fullName = firstName + "@" + secondName;
         System.out.println(fullName.length());
 
 
         //Access characters of a string
         String firstName1 = "Tony";
         String secondName2 = "Stark";
-        String fullName2 = firstName1+ " " + secondName2;
+        String fullName2 = firstName1+ "@" + secondName2;
+
         for(int i=0; i<fullName2.length(); i++) {
         System.out.println(fullName2.charAt(i));
         }
+
+        //Compare String
+        String nam1="Tony";
+        String nam2="Tony";
+
+        if (nam1.compareTo(nam2)==0){
+            System.out.println("Same");
+        }else{
+            System.out.println("Not same");
+        }
+
+        //this is case sensitive some time it is not working
+        // if (nam1 == nam2){
+        //     System.out.println("Same");
+        // }else{
+        //     System.out.println("Not same");
+        // }
+        // //example of above case
+        // if(new String("titan")==new String("titan")){
+        //     System.out.println("Same");
+        // }else{
+        //     System.out.println("Not same");
+        // }
+
 
 
 }
