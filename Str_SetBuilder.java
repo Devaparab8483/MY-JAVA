@@ -24,6 +24,9 @@ public class Str_SetBuilder {
         //Append means to add something at the end.
         sb.append(" Stark");
         System.out.println(sb); 
+        
+        //Print Length of String
+        System.out.println(sb.length());
 
 
 
