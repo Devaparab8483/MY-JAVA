@@ -16,7 +16,7 @@ public class Str_SetBuilder {
         sb.insert(1, 'S');
         System.out.println(sb);
 
-        //delete char
+        //delete char (delete end -1 hoata hai )
         sb.delete(0, 1);
         System.out.println(sb);
 
