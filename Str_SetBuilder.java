@@ -12,6 +12,11 @@ public class Str_SetBuilder {
         sb.setCharAt(0, 'T');
         System.out.println(sb);
 
+        //Insert char
+        sb.insert(1, 'S');
+        System.out.println(sb);
+
+
 
     }
 
