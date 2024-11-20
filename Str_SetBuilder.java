@@ -20,6 +20,11 @@ public class Str_SetBuilder {
         sb.delete(0, 1);
         System.out.println(sb);
 
+        //Append a char 
+        //Append means to add something at the end.
+        sb.append(" Stark");
+        System.out.println(sb); 
+
 
 
 
