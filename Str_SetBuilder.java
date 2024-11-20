@@ -16,6 +16,11 @@ public class Str_SetBuilder {
         sb.insert(1, 'S');
         System.out.println(sb);
 
+        //delete char
+        sb.delete(0, 1);
+        System.out.println(sb);
+
+
 
 
     }
