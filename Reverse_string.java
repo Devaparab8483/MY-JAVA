@@ -1,6 +1,6 @@
 public class Reverse_string {
     public static void main(String[] args) {
-        StringBuilder sb = new StringBuilder("HelloWorld");
+        StringBuilder sb = new StringBuilder("Devang Parab");
     
         for(int i=0; i<sb.length()/2; i++) {
         int front = i;
