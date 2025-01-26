@@ -1,4 +1,4 @@
-package Recursion;
+package recursion;
 
 class print_sums {
     public static void printSum(int n, int sum) {
