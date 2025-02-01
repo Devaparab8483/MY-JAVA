@@ -1,5 +1,7 @@
 package recursion;
 
+//(with stack height = logn)
+
 class Recursion1 {
     public static int printPower(int x, int n) {
     if(n == 0) {
