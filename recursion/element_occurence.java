@@ -1,5 +1,5 @@
 package recursion;
-
+//Find the occurrence of the first and last occurrence of an element using recursion.
 public class element_occurence {
     public static int first = -1;
     public static int last = -1;
