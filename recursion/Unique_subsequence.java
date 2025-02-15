@@ -17,7 +17,7 @@ public class Unique_subsequence {
     printSubseq(str, idx+1, res, allSubseq);
 }
 public static void main(String args[]) {
-String str1 = "abc";
+String str1 = "abcd";
 String str2 = "aaa";
 HashSet<String> allSubseq = new HashSet<>();
 printSubseq(str1, 0, "", allSubseq);
